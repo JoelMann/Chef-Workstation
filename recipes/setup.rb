@@ -11,6 +11,10 @@ package 'git' do
     action :install
 end
 
+package 'nano' do
+    action :install
+end
+
 service 'ntpd' do
     action :enable
     action :start
