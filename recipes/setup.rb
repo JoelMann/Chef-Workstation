@@ -31,11 +31,6 @@ template '/etc/motd' do
     mode '0755'
     action :create
 end
- '/etc/motd' do
-    action :create
-    owner 'root'
-    group 'root'
-end
 
 
 # Assignment:

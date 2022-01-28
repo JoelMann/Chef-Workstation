@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures workstation'
 long_description 'Installs/Configures workstation'
-version '0.3.0' #major.minor.patch (backwards incompatible = major, minor = common, additional functionality that is backwards compatible, patch = bug fix or edgecase)
+version '0.3.1' #major.minor.patch (backwards incompatible = major, minor = common, additional functionality that is backwards compatible, patch = bug fix or edgecase)
 chef_version '>= 14.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
