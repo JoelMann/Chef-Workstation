@@ -20,9 +20,19 @@ service 'ntpd' do
     action :start
 end
 
-file '/etc/motd' do
+# example
+apple_count = 4
+puts "I have #{apple_count} apples"
+
+template '/etc/motd' do
+    source 'motd.erb'
+    owner 'root'
+    group 'root'
+    mode '0755'
     action :create
-    content 'This server is the property of "YOUR NAME HERE"'
+end
+ '/etc/motd' do
+    action :create
     owner 'root'
     group 'root'
 end
